@@ -1,0 +1,6 @@
+package Practical;
+
+public interface Pet {
+	void play();
+	String getOwnerName();
+}
