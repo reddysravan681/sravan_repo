@@ -1,0 +1,20 @@
+package exp_05;
+
+public class Inheritance {
+	public static void main(String args[]) {
+		System.out.println("Registration Number:2462634");
+		Animal generic=new Animal("\nGeneric");
+		generic.speak();
+		Dog d =new Dog("Buddy","Alice");
+		d.speak();
+		d.play();
+		d.info();
+		d.wagTail();
+		Animal petAsAnimal=new Dog("Rex","Bob");
+		petAsAnimal.speak();
+		if(petAsAnimal instanceof Pet) {
+			((Pet)petAsAnimal).play();
+		}
+	}
+
+}
