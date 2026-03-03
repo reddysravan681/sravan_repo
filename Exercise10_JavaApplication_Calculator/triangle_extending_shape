@@ -1,0 +1,13 @@
+package Practicals;
+
+public class triangle_extending_shape extends shape_abstract{
+	public triangle_extending_shape (int base, int height) {
+		super (base, height);
+	}
+	@Override
+	public void printArea() {
+		double area=0.5*a*b;
+		System.out.println("Triangle area=" +area);
+	}
+
+}
