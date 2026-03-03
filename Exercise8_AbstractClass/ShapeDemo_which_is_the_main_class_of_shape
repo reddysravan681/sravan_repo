@@ -1,0 +1,12 @@
+package Practicals;
+
+public class ShapeDemo_which_is_the_main_class_of_shape {
+	public static void main(String []args) {
+		shape_abstract r=new rectangle_extending_shape(5,3);
+		shape_abstract t=new triangle_extending_shape(4,5);
+		shape_abstract c=new circle_extending_shape(3,0);
+		r.printArea();
+		t.printArea();
+		c.printArea();
+	}
+}
