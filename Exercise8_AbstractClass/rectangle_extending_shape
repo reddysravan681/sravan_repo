@@ -1,0 +1,11 @@
+package Practicals;
+
+public class rectangle_extending_shape extends shape_abstract{
+	public rectangle_extending_shape (int width, int height) {
+		super (width, height);
+	}
+	@Override
+	public void printArea() {
+		System.out.println("Rectangle area=" +(a*b));
+	}
+}
